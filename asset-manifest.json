@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Ciasny/pustelniachaber/static/css/main.eb0e367d.css",
-    "main.js": "/Ciasny/pustelniachaber/static/js/main.65e33ee9.js",
-    "static/media/20230407_135232.jpg": "/Ciasny/pustelniachaber/static/media/20230407_135232.a65ed0d89b0e99a4c801.jpg",
-    "static/media/20210817_213602.jpg": "/Ciasny/pustelniachaber/static/media/20210817_213602.2d25174f18fda9cf14de.jpg",
-    "static/media/logo.png": "/Ciasny/pustelniachaber/static/media/logo.022644c041d119e68f87.png",
-    "static/media/miasto.jpg": "/Ciasny/pustelniachaber/static/media/miasto.be7e4ff21ecd4380fd1c.jpg",
-    "static/media/img1.jpg": "/Ciasny/pustelniachaber/static/media/img1.c7bf78448a821883c74c.jpg",
-    "static/media/img4.jpg": "/Ciasny/pustelniachaber/static/media/img4.c31a69e6c0654855a2f9.jpg",
-    "static/media/rapsodia.jpg": "/Ciasny/pustelniachaber/static/media/rapsodia.955f5fa44fa8789118e5.jpg",
-    "static/media/img2.jpg": "/Ciasny/pustelniachaber/static/media/img2.f9866258ceaeda6e8d50.jpg",
-    "static/media/img3.jpg": "/Ciasny/pustelniachaber/static/media/img3.a2b7cf9903da6fbb7bb6.jpg",
-    "static/media/img5.jpg": "/Ciasny/pustelniachaber/static/media/img5.a0f8cf637a29a7b6ac31.jpg",
-    "static/media/img6.jpg": "/Ciasny/pustelniachaber/static/media/img6.c5a6d3b06cdaa1c06a5f.jpg",
-    "static/media/img8.jpg": "/Ciasny/pustelniachaber/static/media/img8.595895dd7087c0398278.jpg",
-    "static/media/img7.jpg": "/Ciasny/pustelniachaber/static/media/img7.d01fa813b0d1325da336.jpg",
-    "static/media/logo.jpg": "/Ciasny/pustelniachaber/static/media/logo.01c8fc12e463f178ee11.jpg",
-    "static/media/phone-icon.png": "/Ciasny/pustelniachaber/static/media/phone-icon.9cf15bca79d0cece1ee4.png",
-    "index.html": "/Ciasny/pustelniachaber/index.html",
-    "main.eb0e367d.css.map": "/Ciasny/pustelniachaber/static/css/main.eb0e367d.css.map",
-    "main.65e33ee9.js.map": "/Ciasny/pustelniachaber/static/js/main.65e33ee9.js.map"
+    "main.css": "/pustelniachaber/static/css/main.eb0e367d.css",
+    "main.js": "/pustelniachaber/static/js/main.c9c448cd.js",
+    "static/media/20230407_135232.jpg": "/pustelniachaber/static/media/20230407_135232.a65ed0d89b0e99a4c801.jpg",
+    "static/media/20210817_213602.jpg": "/pustelniachaber/static/media/20210817_213602.2d25174f18fda9cf14de.jpg",
+    "static/media/logo.png": "/pustelniachaber/static/media/logo.022644c041d119e68f87.png",
+    "static/media/miasto.jpg": "/pustelniachaber/static/media/miasto.be7e4ff21ecd4380fd1c.jpg",
+    "static/media/img1.jpg": "/pustelniachaber/static/media/img1.c7bf78448a821883c74c.jpg",
+    "static/media/img4.jpg": "/pustelniachaber/static/media/img4.c31a69e6c0654855a2f9.jpg",
+    "static/media/rapsodia.jpg": "/pustelniachaber/static/media/rapsodia.955f5fa44fa8789118e5.jpg",
+    "static/media/img2.jpg": "/pustelniachaber/static/media/img2.f9866258ceaeda6e8d50.jpg",
+    "static/media/img3.jpg": "/pustelniachaber/static/media/img3.a2b7cf9903da6fbb7bb6.jpg",
+    "static/media/img5.jpg": "/pustelniachaber/static/media/img5.a0f8cf637a29a7b6ac31.jpg",
+    "static/media/img6.jpg": "/pustelniachaber/static/media/img6.c5a6d3b06cdaa1c06a5f.jpg",
+    "static/media/img8.jpg": "/pustelniachaber/static/media/img8.595895dd7087c0398278.jpg",
+    "static/media/img7.jpg": "/pustelniachaber/static/media/img7.d01fa813b0d1325da336.jpg",
+    "static/media/logo.jpg": "/pustelniachaber/static/media/logo.01c8fc12e463f178ee11.jpg",
+    "static/media/phone-icon.png": "/pustelniachaber/static/media/phone-icon.9cf15bca79d0cece1ee4.png",
+    "index.html": "/pustelniachaber/index.html",
+    "main.eb0e367d.css.map": "/pustelniachaber/static/css/main.eb0e367d.css.map",
+    "main.c9c448cd.js.map": "/pustelniachaber/static/js/main.c9c448cd.js.map"
   },
   "entrypoints": [
     "static/css/main.eb0e367d.css",
-    "static/js/main.65e33ee9.js"
+    "static/js/main.c9c448cd.js"
   ]
 }
