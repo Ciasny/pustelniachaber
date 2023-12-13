@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pustelniachaber/static/css/main.f4b26efc.css",
-    "main.js": "/pustelniachaber/static/js/main.2c46d79f.js",
+    "main.css": "/pustelniachaber/static/css/main.0d6fe9be.css",
+    "main.js": "/pustelniachaber/static/js/main.31e1bbc1.js",
     "static/media/20230407_135232.jpg": "/pustelniachaber/static/media/20230407_135232.a65ed0d89b0e99a4c801.jpg",
     "static/media/20210817_213602.jpg": "/pustelniachaber/static/media/20210817_213602.2d25174f18fda9cf14de.jpg",
     "static/media/logo.png": "/pustelniachaber/static/media/logo.022644c041d119e68f87.png",
@@ -21,11 +21,11 @@
     "static/media/logo.jpg": "/pustelniachaber/static/media/logo.01c8fc12e463f178ee11.jpg",
     "static/media/phone-icon.png": "/pustelniachaber/static/media/phone-icon.9cf15bca79d0cece1ee4.png",
     "index.html": "/pustelniachaber/index.html",
-    "main.f4b26efc.css.map": "/pustelniachaber/static/css/main.f4b26efc.css.map",
-    "main.2c46d79f.js.map": "/pustelniachaber/static/js/main.2c46d79f.js.map"
+    "main.0d6fe9be.css.map": "/pustelniachaber/static/css/main.0d6fe9be.css.map",
+    "main.31e1bbc1.js.map": "/pustelniachaber/static/js/main.31e1bbc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b26efc.css",
-    "static/js/main.2c46d79f.js"
+    "static/css/main.0d6fe9be.css",
+    "static/js/main.31e1bbc1.js"
   ]
 }
