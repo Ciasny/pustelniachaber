@@ -1,0 +1,8 @@
+DONE 1. na telefonie napis "kwiaty na zamoiwenie" zawija sie do nastepnej linijki 
+DONE 2. na componenty kwiatomat nie maja rownego textu na bialym telefonie
+DONE 3. w galeria przycisk powrot jest nad otwieranym menu trzeba zmienic z-index
+DONE 4. na telefonie gdy wysuniete jest menu i zjedzie sie na dol  pojawia sie przerwa spowodowana gornym paskiem przegladarki w telefonie i przycisk x nie jest fixed i zjezdza na gore
+
+5.Not Responsive
+
+

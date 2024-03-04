@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+// Main Components
+import Footer from "./Components/Main/Footer";
+import NavBar from "./Components/Main/NavBar";
+
+// Pages
+import HomePage from "./Pages/HomePage";
+import NotFoundPage from "./Pages/NotFoundPage";
+import GalleryPage from "./Pages/GalleryPage";
+
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState({ title: 'HomePage', data: '' })
+
+  function renderPage() {
+    switch (currentPage.title) {
+      case 'HomePage':
+        return <HomePage setPage={setCurrentPage} />
+      case 'GalleryPage':
+        return <GalleryPage setPage={setCurrentPage} currentPage={currentPage} />
+      default:
+        return <NotFoundPage />
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar setPage={setCurrentPage} />
+      {renderPage()}
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,15 @@
+.links-list {
+    display: grid;
+    grid-template-columns: 3rem, 1fr;
+    gap: 1rem;
+
+}
+
+.links-list img {
+    grid-column: 1;
+    margin: auto;
+}
+
+.links-list li {
+    grid-column: 2;
+}
