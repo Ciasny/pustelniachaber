@@ -1,30 +1,28 @@
 import React, { useRef } from 'react'
 import logoImg from '../../Images/logo.png'
 import './navbar.css'
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react'
 
 const NavBar = ({ setPage }) => {
 
     const menuBtnRef = useRef(null)
     const menuRef = useRef(null)
-    const width = useRef(window.innerWidth)
+
 
     function slideMenu() {
         menuBtnRef.current.classList.toggle('clicked')
         menuRef.current.classList.toggle('show')
-
-    }
-
-    window.onresize = () => {
-        width.current = window.innerWidth
-        console.log(width)
     }
 
 
-
+    useGSAP(() => {
+        gsap.from('.nav-link', { opacity: 0, duration: 1, stagger: -0.2 })
+    })
 
 
     return (
-        <nav className='px-3 py-2 bg-secondary flex justify-between align-middle '>
+        <nav className='px-3 py-2 bg-secondary flex justify-between align-middle  fixed w-full top-0 z-50'>
             <img src={logoImg} alt="Pustelnia Chaber Logo" className='max-w-[5rem]' onClick={() => setPage({ title: 'HomePage', data: '' })} />
             <button className='menu-btn md:!hidden' ref={menuBtnRef} onClick={slideMenu}>
                 <div className='stripe1'></div>
@@ -34,15 +32,15 @@ const NavBar = ({ setPage }) => {
 
             <div className='hidden md:block'>
                 <ul className='flex items-center h-[100%] gap-8 text-2xl'>
-                    <li className='link-hover'><a href="" onClick={() => setPage({ title: 'HomePage', data: '' })}>Strona Główna</a></li>
+                    <li className='link-hover nav-link'><a href="" onClick={() => setPage({ title: 'HomePage', data: '' })}>Strona Główna</a></li>
 
-                    <li className='link-hover'><a href="#kwiatomaty">Kwiatomaty</a></li>
+                    <li className='link-hover nav-link'><a href="#kwiatomaty">Kwiatomaty</a></li>
 
-                    <li className='link-hover'><a href="#footer">Kontakt</a></li>
+                    <li className='link-hover nav-link'><a href="#footer">Kontakt</a></li>
 
-                    <li className='link-hover'><a href="#gallery-preview">Galeria</a></li>
+                    <li className='link-hover nav-link'><a href="#gallery-preview">Galeria</a></li>
 
-                    <li className='link-hover'><a href="#about">O Pracowni</a></li>
+                    <li className='link-hover nav-link'><a href="#about">O Pracowni</a></li>
                 </ul>
             </div>
 

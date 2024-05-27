@@ -5,11 +5,8 @@
 }
 
 #gallery-preview {
-    scroll-snap-type: both mandatory;
+    padding-top: 5em;
+    margin-top: -5em;
 }
 
-.gallery-item {
-    scroll-padding-top: 10px;
-
-
-}
+.gallery-item {}

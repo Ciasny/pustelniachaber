@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useState } from 'react';
 import uniqid from 'uniqid';
-
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const GalleryPage = ({ setPage, currentPage }) => {
 
@@ -15,6 +16,12 @@ const GalleryPage = ({ setPage, currentPage }) => {
 
     const [width, setWidth] = useState(window.innerWidth)
 
+    useGSAP(() => {
+        gsap.from('.image-appear1', { opacity: 0, duration: 1, stagger: 0.5 })
+        gsap.from('.image-appear2', { opacity: 0, duration: 1, stagger: 0.5 })
+
+    })
+
     function goBack() {
         setPage({ title: 'HomePage', data: '' })
         setTimeout(() => {
@@ -26,8 +33,6 @@ const GalleryPage = ({ setPage, currentPage }) => {
             item.scrollIntoView()
         }, 1)
 
-
-
     }
 
     function mapPaths(prefix, count) {
@@ -38,9 +43,9 @@ const GalleryPage = ({ setPage, currentPage }) => {
         return res
     }
 
-    function mapImages(images) {
+    function mapImages(images, chunk) {
         return images.map(imagePath => {
-            return <img key={uniqid()} src={require(`src/Images/${imagePath}`)} alt={currentPage.data} />
+            return <img key={uniqid()} src={require(`src/Images/${imagePath}`)} alt={currentPage.data} className={'image-appear' + chunk} />
         })
     }
 
@@ -67,12 +72,12 @@ const GalleryPage = ({ setPage, currentPage }) => {
             <div className='grid grid-cols-2 gap-2 lg:mx-[10%] xl:mx-[15%]'>
                 <div className='flex flex-col gap-2'>
                     {
-                        mapImages(chunk1)
+                        mapImages(chunk1, 1)
                     }
                 </div>
                 <div className='flex flex-col gap-2'>
                     {
-                        mapImages(chunk2)
+                        mapImages(chunk2, 2)
                     }
                 </div>
 
