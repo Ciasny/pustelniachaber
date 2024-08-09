@@ -1,9 +1,9 @@
 {
   "short_name": "Pustelnia Chaber",
-  "name": "Pracownia Flortystyczna | Pustelnia Chaber | Oświęcim - Zaborze",
+  "name": "Nowa Lokalizacja | Pracownia Flortystyczna | Pustelnia Chaber | Oświęcim ",
   "icons": [
     {
-      "src": "logo_icon.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -13,7 +13,7 @@
       "sizes": "254x254"
     }
   ],
-  "description": "Pracownia Flortyczna - Pustelnia Chaber | Kwiatomaty | Urszula Maciejowska",
+  "description": " NOWA LOKALIZACJA | Pracownia Flortyczna - Pustelnia Chaber | Kwiatomaty | Urszula Maciejowska",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
