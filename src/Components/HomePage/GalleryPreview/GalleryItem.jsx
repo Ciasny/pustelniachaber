@@ -7,8 +7,6 @@ const GalleryItem = ({ title, imagesPaths, id, setPage }) => {
 
     const [width, setWidth] = useState(window.innerWidth)
 
-
-
     function renderSlider() {
         return (
             <Slider config={{ padding: '4rem', type: 'loop', gap: '0.5rem' }} className={'max-w-lg my-8'}>
