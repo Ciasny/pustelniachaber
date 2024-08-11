@@ -44,7 +44,7 @@ const Kwiatomaty = () => {
                             <li>- Otwarte 24/7</li>
                             <li>- Płatność kartą i blikiem</li>
                             <li>- Prosta obsługa</li>
-                            <li>- Możliwość odbioru indywidualnych zamówień, na podstawie przsłanego kodu odbioru</li>
+                            <li>- Możliwość odbioru indywidualnych zamówień, na podstawie przesłanego kodu odbioru</li>
                         </ul>
                     </div>
                 </div>
