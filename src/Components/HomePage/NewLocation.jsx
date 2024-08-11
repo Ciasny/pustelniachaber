@@ -32,7 +32,6 @@ const NewLocation = () => {
                             <Slider config={{
                                 type: 'loop',
                                 infinite: true,
-
                                 breakpoints: {
                                     768: {
                                         padding: '3rem',
