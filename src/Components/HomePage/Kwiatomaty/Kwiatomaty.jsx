@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Kwiatomat from './Kwiatomat'
 import Slider from '../../Main/Slider'
 import kwiatomatMiastoImg from '../../../Images/Kwiatomaty/miasto.jpg'
 import kwiatomatOsiedleImg from '../../../Images/Kwiatomaty/rapsodia.jpg'
+import kwiatomatKauflandImg from '../../../Images/Kwiatomaty/kaufland.jpg'
+
 
 
 const Kwiatomaty = () => {
@@ -12,8 +14,18 @@ const Kwiatomaty = () => {
     function renderSlider() {
         return (
             <Slider className='w-full' config={{ padding: '3rem', gap: '1rem' }}>
-                <Kwiatomat img={kwiatomatMiastoImg} title={'Kwiatomat w "Mieście"'} content={'Przy Sklepie PSS Społem, ul.Dąbrowskiego 8B'} mapLink={'https://maps.app.goo.gl/9dnUzRmzuu8iRQr5A'} />
-                <Kwiatomat img={kwiatomatOsiedleImg} title={'Kwiatomat na "Osiedlu"'} content={'Przy Rapsodia Cafe, ul.Śniadeckiego 22'} mapLink={'https://maps.app.goo.gl/MJrDL2kGXnLSPfHh9'} />
+                <Kwiatomat img={kwiatomatMiastoImg}
+                    title={'Kwiatomat w "Mieście"'}
+                    content={'Przy Sklepie PSS Społem, ul.Dąbrowskiego 8B'}
+                    mapLink={'https://maps.app.goo.gl/9dnUzRmzuu8iRQr5A'} />
+                <Kwiatomat img={kwiatomatOsiedleImg}
+                    title={'Kwiatomat na "Osiedlu"'}
+                    content={'Przy Rapsodia Cafe, ul.Śniadeckiego 22'}
+                    mapLink={'https://maps.app.goo.gl/MJrDL2kGXnLSPfHh9'} />
+                <Kwiatomat img={kwiatomatKauflandImg}
+                    title={'Kwiatomat na przy Kauflandzie'}
+                    content={'Przy Kauflandzie ul.Królowej Jadwigi 11'}
+                    mapLink={''} />
             </Slider>
         )
     }
@@ -21,8 +33,18 @@ const Kwiatomaty = () => {
     function renderNormal() {
         return (
             <div className='grid grid-cols-2 gap-2 max-w-[50%]'>
-                <Kwiatomat img={kwiatomatMiastoImg} title={'Kwiatomat w "Mieście"'} content={'Przy Sklepie PSS Społem, ul.Dąbrowskiego 8B'} mapLink={'https://maps.app.goo.gl/9dnUzRmzuu8iRQr5A'} />
-                <Kwiatomat img={kwiatomatOsiedleImg} title={'Kwiatomat na "Osiedlu"'} content={'Przy Rapsodia Cafe, ul.Śniadeckiego 22'} mapLink={'https://maps.app.goo.gl/MJrDL2kGXnLSPfHh9'} />
+                <Kwiatomat img={kwiatomatMiastoImg}
+                    title={'Kwiatomat w "Mieście"'}
+                    content={'Przy Sklepie PSS Społem, ul.Dąbrowskiego 8B'}
+                    mapLink={'https://maps.app.goo.gl/9dnUzRmzuu8iRQr5A'} />
+                <Kwiatomat img={kwiatomatOsiedleImg}
+                    title={'Kwiatomat na "Osiedlu"'}
+                    content={'Przy Rapsodia Cafe, ul.Śniadeckiego 22'}
+                    mapLink={'https://maps.app.goo.gl/MJrDL2kGXnLSPfHh9'} />
+                <Kwiatomat img={kwiatomatKauflandImg}
+                    title={'Kwiatomat na przy Kauflandzie'}
+                    content={'Przy Kauflandzie ul.Królowej Jadwigi 11'}
+                    mapLink={''} />
             </div>
         )
     }
