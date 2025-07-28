@@ -53,7 +53,6 @@ const Header = () => {
                 <a href="#gallery-preview" className='clean-underline text-3xl '>Galeria Kwiatów</a>
             </div>
 
-
         </header>
     )
 }

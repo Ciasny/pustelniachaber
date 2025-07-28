@@ -11,7 +11,7 @@ const NewLocation = () => {
                 <h2 className='text-4xl m-auto text-center underline mb-8'><a href="#footer">Nowa lokalizacja Pustelni Chaber!</a></h2>
 
                 <div className='text-center'>
-                    <h4 className='text-3xl mb-4'>Pracownia Florystyczna Pustelnia Chaber</h4>
+                    {/* <h4 className='text-3xl mb-4'>Pracownia Florystyczna Pustelnia Chaber</h4 */}
                     <p className='text-xl'>
                         <b>- Zapraszamy - </b> <br />
                         Teraz też w centrum Oświęcimia na wprost Oświęcimskiego Centrum Kultury <br />
