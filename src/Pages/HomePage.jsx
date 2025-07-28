@@ -16,8 +16,6 @@ const HomePage = ({ setPage }) => {
 
     return (
         <>
-            <Header />
-
             {isAnnouncementDay && (
                 <div
                     id='ogloszenie'
@@ -27,6 +25,9 @@ const HomePage = ({ setPage }) => {
                     W dniach 28-29 lipca Pracownia będzie nieczynna
                 </div>
             )}
+            <Header />
+
+
 
 
 
