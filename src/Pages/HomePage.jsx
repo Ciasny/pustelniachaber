@@ -28,8 +28,7 @@ const HomePage = ({ setPage }) => {
                 </div>
             )}
 
-            <hr className="my-6 border-gray-300" />
-            <NewLocation />
+
 
             <hr className="my-6 border-gray-300" />
             <Kwiatomaty />
